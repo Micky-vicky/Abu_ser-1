@@ -8,14 +8,8 @@ Rashi.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, (as
 
     var r_text = new Array ();
     
-    r_text[0] = Config.LG_LOGO
     
-    var i = Math.floor(1*Math.random())
-
-    var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
-
-    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*✌︎➪𝑨𝑩𝑼 𝑺𝑬𝑹 𝑩𝑶𝑻☜︎︎︎✌︎*
-   ` + config.LOGO_NAME + `
+    r_text[0] = "https://i.ibb.co/d5LrXgv/IMG-20220116-WA0130.jpg";
     
     
     var i = Math.floor(1*Math.random())
